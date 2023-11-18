@@ -20,4 +20,4 @@ fi
 [ -n "$CLASSPATH" ] && jars="$jars:$CLASSPATH"
 
 # Launch the applet
-exec java -server -Xmx64m -Xms32m -ea -cp "$jars" lcm.logging.LogPlayer "$@"
+exec java -server -Dsun.java2d.uiScale=2.5 -Xmx64m -Xms32m -ea -cp "$jars" lcm.logging.LogPlayer "$@"
