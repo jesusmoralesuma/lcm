@@ -1,0 +1,4 @@
+Python post-install setup
+
+echo "/usr/local/lib/python3.9/site-packages/" > /home/m/miniforge3/envs/ros_noetic/lib/python3.9/site-packages/lcm.pth
+echo "/usr/local/lib/python3.9/site-packages/" > /home/m/miniforge3/envs/ros_humble/lib/python3.10/site-packages/lcm.pth
